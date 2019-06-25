@@ -24,6 +24,7 @@ public class RepeatedNumber1 {
             while (numbers[i] != i) {
                 if (numbers[i] == numbers[numbers[i]]) {
                     repeatedNum.add(numbers[i]);
+                    break;
                 }
                 swap(numbers, i, numbers[i]);
             }
