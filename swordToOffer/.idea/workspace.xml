@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a76e628-e336-41c8-8884-7174c63a5578" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/third_repeatedNumInArray/RepeatedNumber1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/third_repeatedNumInArray/RepeatedNumber1.java" afterDir="false" />
-    </list>
+    <list default="true" id="7a76e628-e336-41c8-8884-7174c63a5578" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +17,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/second_singleton/Singleton1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="342">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
@@ -29,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/second_singleton/Singleton2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="342">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
@@ -38,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/second_singleton/Singleton3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="304">
               <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
             </state>
           </provider>
@@ -47,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/second_singleton/Singleton4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="95">
               <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding>
                 <element signature="e#253#254#0" expanded="true" />
@@ -60,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/second_singleton/Singleton5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="152">
               <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
@@ -69,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/third_repeatedNumInArray/RepeatedNumber1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="562">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,8 +100,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="230" />
-    <option name="y" value="-15" />
+    <option name="x" value="446" />
+    <option name="y" value="-13" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -128,12 +125,6 @@
               <item name="swordToOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="swordToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="third_repeatedNumInArray" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,10 +188,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -231,28 +221,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/second_singleton/Singleton1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="342">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/second_singleton/Singleton2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="342">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/second_singleton/Singleton3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="304">
           <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/second_singleton/Singleton4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="95">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding>
             <element signature="e#253#254#0" expanded="true" />
@@ -263,15 +253,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/second_singleton/Singleton5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="152">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/third_repeatedNumInArray/RepeatedNumber1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        <state relative-caret-position="562">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
