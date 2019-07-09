@@ -7,7 +7,7 @@ public class ReplaceSpace {
     // 查找空格数量
     public static int numofspace(String str) {
         int count = 0;
-        for(int i = 0; i < str.length(); i++) {
+        for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == ' ') {
                 count++;
             }
