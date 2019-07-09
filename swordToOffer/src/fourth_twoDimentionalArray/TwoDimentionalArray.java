@@ -5,7 +5,7 @@ package fourth_twoDimentionalArray;
  * 输入这样一个二维数组和一个整数，判断数组中是否含有该整数。
  */
 public class TwoDimentionalArray {
-    //从右上角或者左下角开始比较
+    //思路：从右上角或者左下角开始比较
     public static boolean findNum(int[][] a, int key) {
         if (a.length == 0)
             return false;
