@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a76e628-e336-41c8-8884-7174c63a5578" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sixth_printLinkFromEndToTop/PrintLinkEndToTop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seventh_binaryTree/TraverseBTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,11 +17,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sixth_printLinkFromEndToTop/PrintLinkEndToTop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="116">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/seventh_binaryTree/TraverseBTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="886">
+              <caret line="85" column="25" lean-forward="true" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+              <folding>
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,12 +64,13 @@
         <option value="$PROJECT_DIR$/src/fifth_replaceSpace/ReplaceSpace.java" />
         <option value="$PROJECT_DIR$/src/fifth_replaceSpace/MergeArray.java" />
         <option value="$PROJECT_DIR$/src/sixth_printLinkFromEndToTop/PrintLinkEndToTop.java" />
+        <option value="$PROJECT_DIR$/src/seventh_binaryTree/TraverseBTree.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="445" />
-    <option name="y" value="-14" />
+    <option name="y" value="-15" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -68,7 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,13 +99,19 @@
               <item name="swordToOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="swordToOffer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="seventh_binaryTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swordToOffer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swordToOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sixth_printLinkFromEndToTop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrintLinkEndToTop">
+  <component name="RunManager" selected="Application.TraverseBTree">
     <configuration name="MergeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fifth_replaceSpace.MergeArray" />
       <module name="swordToOffer" />
@@ -142,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatedNumber1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="third_repeatedNumInArray.RepeatedNumber1" />
+    <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fifth_replaceSpace.ReplaceSpace" />
       <module name="swordToOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="third_repeatedNumInArray.*" />
+          <option name="PATTERN" value="fifth_replaceSpace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fifth_replaceSpace.ReplaceSpace" />
+    <configuration name="TraverseBTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seventh_binaryTree.TraverseBTree" />
       <module name="swordToOffer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fifth_replaceSpace.*" />
+          <option name="PATTERN" value="seventh_binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TraverseBTree" />
         <item itemvalue="Application.PrintLinkEndToTop" />
         <item itemvalue="Application.MergeArray" />
         <item itemvalue="Application.ReplaceSpace" />
         <item itemvalue="Application.TwoDimentionalArray" />
-        <item itemvalue="Application.RepeatedNumber1" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +228,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25938338" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2627346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -218,7 +238,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27234638" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3224401" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32122904" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -235,6 +255,18 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/seventh_binaryTree/TraverseBTree.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/second_singleton/Singleton1.java">
@@ -309,8 +341,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sixth_printLinkFromEndToTop/PrintLinkEndToTop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="116">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/seventh_binaryTree/TraverseBTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="886">
+          <caret line="85" column="25" lean-forward="true" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+          <folding>
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
