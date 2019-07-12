@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a76e628-e336-41c8-8884-7174c63a5578" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/seventh_binaryTree/ReconstrutTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seventh_binaryTree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/seventh_binaryTree/TraverseBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seventh_binaryTree/TraverseBTree.java" afterDir="false" />
     </list>
@@ -26,15 +28,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/seventh_binaryTree/TraverseBTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="134" column="21" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
+            <state relative-caret-position="212">
+              <caret line="91" column="4" selection-start-line="91" selection-start-column="4" selection-end-line="105" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2563#2564#0" expanded="true" />
-                <element signature="e#2595#2596#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/seventh_binaryTree/ReconstrutTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/seventh_binaryTree/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,15 +90,17 @@
         <option value="$PROJECT_DIR$/src/fifth_replaceSpace/ReplaceSpace.java" />
         <option value="$PROJECT_DIR$/src/fifth_replaceSpace/MergeArray.java" />
         <option value="$PROJECT_DIR$/src/sixth_printLinkFromEndToTop/PrintLinkEndToTop.java" />
+        <option value="$PROJECT_DIR$/src/seventh_binaryTree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/seventh_binaryTree/TraverseBTree.java" />
+        <option value="$PROJECT_DIR$/src/seventh_binaryTree/ReconstrutTree.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="445" />
-    <option name="y" value="-15" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="1493" />
+    <option name="y" value="-1" />
+    <option name="width" value="1120" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -136,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TraverseBTree">
+  <component name="RunManager" selected="Application.ReconstrutTree">
     <configuration name="MergeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fifth_replaceSpace.MergeArray" />
       <module name="swordToOffer" />
@@ -156,6 +183,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sixth_printLinkFromEndToTop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReconstrutTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seventh_binaryTree.ReconstrutTree" />
+      <module name="swordToOffer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seventh_binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,26 +229,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDimentionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fourth_twoDimentionalArray.TwoDimentionalArray" />
-      <module name="swordToOffer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fourth_twoDimentionalArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReconstrutTree" />
         <item itemvalue="Application.TraverseBTree" />
         <item itemvalue="Application.PrintLinkEndToTop" />
         <item itemvalue="Application.MergeArray" />
         <item itemvalue="Application.ReplaceSpace" />
-        <item itemvalue="Application.TwoDimentionalArray" />
       </list>
     </recent_temporary>
   </component>
@@ -226,9 +253,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="1912" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2660858" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1429652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -237,8 +265,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27234638" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32122904" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19354838" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4016129" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -334,14 +362,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/seventh_binaryTree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/seventh_binaryTree/TraverseBTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="134" column="21" selection-start-line="134" selection-start-column="21" selection-end-line="134" selection-end-column="21" />
+        <state relative-caret-position="212">
+          <caret line="91" column="4" selection-start-line="91" selection-start-column="4" selection-end-line="105" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2563#2564#0" expanded="true" />
-            <element signature="e#2595#2596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/seventh_binaryTree/ReconstrutTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
