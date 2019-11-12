@@ -1,7 +1,7 @@
 1.数组和链表
 （1）reverse-linked-list 翻转链表
-（2）swap-nodes-in-pairs
-（3）linked-list-cycle
+（2）swap-nodes-in-pairs 两两交换链表中的节点
+（3）linked-list-cycle 环形链表
 （4）linked-list-cycle-ii
 （5）reverse-nodes-in-k-group
 
