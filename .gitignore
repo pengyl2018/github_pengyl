@@ -11,3 +11,8 @@
 .iml
 .class
 .out
+.iml
+.settings
+.classpath
+out
+build
