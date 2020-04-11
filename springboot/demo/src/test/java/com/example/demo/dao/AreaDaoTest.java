@@ -19,7 +19,6 @@ public class AreaDaoTest {
     private AreaDao areaDao;
 
     @Test
-    @Ignore
     public void queryArea() {
         List<Area> areaList = areaDao.queryArea();
         assertEquals(2, areaList.size());
@@ -32,7 +31,6 @@ public class AreaDaoTest {
     }
 
     @Test
-    @Ignore
     public void insertArea() {
         Area area = new Area();
         area.setAreaName("南苑");
@@ -42,7 +40,6 @@ public class AreaDaoTest {
     }
 
     @Test
-    @Ignore
     public void updateArea() {
         Area area = new Area();
         area.setAreaName("西苑");
@@ -54,7 +51,7 @@ public class AreaDaoTest {
 
     @Test
     public void deleteArea() {
-        int effnum = areaDao.deleteArea(3);
+        int effnum = areaDao.deleteArea(4);
         assertEquals(1, effnum);
     }
 }

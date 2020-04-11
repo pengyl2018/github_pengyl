@@ -24,7 +24,7 @@ public class SessionFactoryConfiguration {
     private String entityPackage;
 
     @Autowired
-    @Qualifier("dataSource")
+    @Qualifier("dataSour")
     private DataSource dataSource;
 
     @Bean(name="sqlSessionFactory")
