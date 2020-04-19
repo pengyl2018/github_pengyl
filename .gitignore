@@ -8,7 +8,7 @@
 
 .idea
 .project
-.iml
+*.iml
 .class
 .out
 .settings
