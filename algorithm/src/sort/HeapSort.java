@@ -29,7 +29,8 @@ public class HeapSort {
         int temp = a[i];
         // 下标为i的元素的左右孩子节点分别是2*i+1和2*i+2
         for (int j = 2 * i + 1; j < len; j = 2 * j + 1) {
-            if (a[j + 1] > a[j] && j + 1 < len)
+            // 判断下标是否越界的判断要放在前面
+            if (j + 1 < len && a[j + 1] > a[j])
                 j++;
             if (a[j] <= temp) {
                 break;
