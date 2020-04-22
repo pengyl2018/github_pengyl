@@ -1,5 +1,7 @@
 package ByteRun;
 
+import common.CommonUtil;
+
 /**
  * Given a non-negative number represented as an array of digits, plus one to the number.
  * <p>
@@ -16,11 +18,11 @@ package ByteRun;
 public class PlusOne {
     public static void main(String[] args) {
         int[] input = new int[]{1, 2, 3, 4, 5, 6, 7};
-        print(plusOne(input));
+        CommonUtil.printArray(plusOne(input));
         input = new int[]{1, 1, 1, 9};
-        print(plusOne(input));
+        CommonUtil.printArray(plusOne(input));
         input = new int[]{9, 9, 9};
-        print(plusOne(input));
+        CommonUtil.printArray(plusOne(input));
     }
 
     private static int[] plusOne(int[] input) {
@@ -35,12 +37,5 @@ public class PlusOne {
         ext[0] = 1;
         System.arraycopy(input, 0, ext, 1, input.length);
         return ext;
-    }
-
-    private static void print(int[] arr) {
-        for (int a : arr) {
-            System.out.print(a + ",");
-        }
-        System.out.println();
     }
 }

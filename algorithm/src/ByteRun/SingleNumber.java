@@ -1,5 +1,7 @@
 package ByteRun;
 
+import common.CommonUtil;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -22,11 +24,11 @@ import java.util.Set;
 public class SingleNumber {
     public static void main(String[] args) {
         int[] array = new int[]{2, 2, 1};
-        System.out.println("解法一：" + getSingleNum(array));
-        System.out.println("解法二：" + getSingleNum2(array));
+        CommonUtil.printNumber(getSingleNum(array));
+        CommonUtil.printNumber(getSingleNum2(array));
         array = new int[]{4, 1, 2, 1, 2};
-        System.out.println("解法一：" + getSingleNum(array));
-        System.out.println("解法二：" + getSingleNum2(array));
+        CommonUtil.printNumber(getSingleNum(array));
+        CommonUtil.printNumber(getSingleNum2(array));
     }
 
     // 解法一：使用hashSet，遍历所有数字，若在hashSet中存在，则将数字从中去掉，否则放入，最后剩下了那个出现一次的数

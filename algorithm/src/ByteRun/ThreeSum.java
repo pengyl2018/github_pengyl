@@ -1,5 +1,7 @@
 package ByteRun;
 
+import common.CommonUtil;
+
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -25,7 +27,7 @@ public class ThreeSum {
     public static void main(String[] args) {
         int[] input = new int[]{-1, 0, 1, 2, -1, -4};
         List<List<Integer>> result = new ThreeSum().threeSum(input);
-        System.out.println(result.toString());
+        CommonUtil.printStirng(result.toString());
     }
 
     private List<List<Integer>> threeSum(int[] nums) {

@@ -1,5 +1,7 @@
 package ByteRun;
 
+import common.CommonUtil;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,9 +18,7 @@ public class TwoSum {
         int[] arr = new int[]{3, 2, 4};
         int target = 6;
         int[] ints = new TwoSum().twoSum(arr, target);
-        for (int i = 0; i < ints.length; i++) {
-            System.out.println(ints[i]);
-        }
+        CommonUtil.printArray(ints);
     }
 
     public int[] twoSum(int[] numbers, int target) {

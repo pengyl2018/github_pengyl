@@ -1,5 +1,7 @@
 package ByteRun;
 
+import common.CommonUtil;
+
 /**
  * Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
  * <p>
@@ -12,8 +14,8 @@ public class MergeTwoSortedLists {
     public static void main(String[] args) {
         int[] list1 = new int[]{1, 2, 4, 8};
         int[] list2 = new int[]{1, 3, 4, 6};
-        int[] resutl = mergeList(list1, list2);
-        print(resutl);
+        int[] result = mergeList(list1, list2);
+        CommonUtil.printArray(result);
     }
 
     private static int[] mergeList(int[] list1, int[] list2) {
@@ -33,11 +35,5 @@ public class MergeTwoSortedLists {
             mergelist[k++] = list2[j++];
         }
         return mergelist;
-    }
-
-    private static void print(int[] arr) {
-        for (Integer a : arr) {
-            System.out.print(a + ",");
-        }
     }
 }

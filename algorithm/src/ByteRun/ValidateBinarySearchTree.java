@@ -1,6 +1,7 @@
 package ByteRun;
 
 import common.BinaryTree;
+import common.CommonUtil;
 
 /**
  * Given a binary tree, determine if it is a valid binary search tree (BST).
@@ -38,7 +39,7 @@ public class ValidateBinarySearchTree {
         b2.right = b3;
         b1.left = b1.right = null;
         b3.left = b3.right = null;
-        System.out.println(judgeInvalid(b2));
+        CommonUtil.printBool(judgeInvalid(b2));
         // 例子中第二棵树
         b1 = new BinaryTree(1);
         b3 = new BinaryTree(3);
@@ -49,7 +50,7 @@ public class ValidateBinarySearchTree {
         b5.right = b4;
         b4.left = b3;
         b4.right = b6;
-        System.out.println(judgeInvalid(b5));
+        CommonUtil.printBool(judgeInvalid(b5));
     }
     private static boolean judgeInvalid(BinaryTree bt) {
         if (bt == null) {

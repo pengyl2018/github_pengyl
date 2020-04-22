@@ -1,5 +1,7 @@
 package ByteRun;
 
+import common.CommonUtil;
+
 /**
  * Given a non-empty array of integers, every element appears three times except for one, which appears exactly once. Find that single one.
  * <p>
@@ -19,9 +21,9 @@ package ByteRun;
 public class SingleNumberII {
     public static void main(String[] args) {
         int[] array = new int[]{2, 2, 3, 2};
-        System.out.println(getSingleNumber(array));
+        CommonUtil.printNumber(getSingleNumber(array));
         array = new int[]{0, 1, 0, 1, 0, 1, 99};
-        System.out.println(getSingleNumber(array));
+        CommonUtil.printNumber(getSingleNumber(array));
     }
 
     /*

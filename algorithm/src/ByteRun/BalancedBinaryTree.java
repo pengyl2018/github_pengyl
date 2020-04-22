@@ -1,6 +1,7 @@
 package ByteRun;
 
 import common.BinaryTree;
+import common.CommonUtil;
 
 /**
  * Given a binary tree, determine if it is height-balanced.
@@ -45,7 +46,7 @@ public class BalancedBinaryTree {
         b1.right = b3;
         b3.left = b4;
         b3.right = b5;
-        System.out.println(isBalanced(b1));
+        CommonUtil.printBool(isBalanced(b1));
         // 类说明中第二个例子
         b1 = new BinaryTree(1);
         b2 = new BinaryTree(2);
@@ -60,7 +61,7 @@ public class BalancedBinaryTree {
         b2.right = b5;
         b4.left = b6;
         b4.right = b7;
-        System.out.println(isBalanced(b1));
+        CommonUtil.printBool(isBalanced(b1));
     }
 
     private static boolean isBalanced(BinaryTree bt) {

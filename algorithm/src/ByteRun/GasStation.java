@@ -1,5 +1,7 @@
 package ByteRun;
 
+import common.CommonUtil;
+
 /**
  * There are N gas stations along a circular route, where the amount of gas at station i is gas[i].
  * <p>
@@ -18,10 +20,10 @@ public class GasStation {
     public static void main(String[] args) {
         int[] gas = new int[]{2, 5, 6, 4, 7};
         int[] costs = new int[]{2, 1, 12, 3, 1};
-        System.out.println(getSolution(gas, costs));
+        CommonUtil.printNumber(getSolution(gas, costs));
         gas = new int[]{2, 5, 6, 4, 7};
         costs = new int[]{2, 1, 12, 3, 7};
-        System.out.println(getSolution(gas, costs));
+        CommonUtil.printNumber(getSolution(gas, costs));
     }
 
     private static int getSolution(int[] gas, int[] costs) {

@@ -1,5 +1,7 @@
 package ByteRun;
 
+import common.CommonUtil;
+
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -39,13 +41,13 @@ public class LRUCache {
         LRUCache lruCache = new LRUCache(2);
         lruCache.pushNum(1, "1");
         lruCache.pushNum(2, "2");
-        System.out.println(lruCache.getNum(1));
+        CommonUtil.printStirng(lruCache.getNum(1));
         lruCache.pushNum(3, "3");
-        System.out.println(lruCache.getNum(2));
+        CommonUtil.printStirng(lruCache.getNum(2));
         lruCache.pushNum(4, "4");
-        System.out.println(lruCache.getNum(1));
-        System.out.println(lruCache.getNum(3));
-        System.out.println(lruCache.getNum(4));
+        CommonUtil.printStirng(lruCache.getNum(1));
+        CommonUtil.printStirng(lruCache.getNum(3));
+        CommonUtil.printStirng(lruCache.getNum(4));
     }
 
     private void pushNum(int key, String value) {

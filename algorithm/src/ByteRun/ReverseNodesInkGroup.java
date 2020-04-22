@@ -1,5 +1,6 @@
 package ByteRun;
 
+import common.CommonUtil;
 import common.ListNode;
 
 /**
@@ -82,9 +83,6 @@ public class ReverseNodesInkGroup {
         n3.next = n4;
         n4.next = n5;
         ListNode head = test.reverseKGroup(n1, 2);
-        while (head != null) {
-            System.out.println(head.val);
-            head = head.next;
-        }
+        CommonUtil.printLink(head);
     }
 }

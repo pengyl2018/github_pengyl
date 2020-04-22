@@ -1,5 +1,7 @@
 package sort;
 
+import common.CommonUtil;
+
 import java.util.*;
 
 public class SelectSort {
@@ -26,7 +28,7 @@ public class SelectSort {
     public static void main(String[] args) {
         int[] a = {3, 12, 76, 23, 17, 8, 54};
         selectSort(a);
-        System.out.println(Arrays.toString(a));
+        CommonUtil.printArray(a);
     }
 }
 

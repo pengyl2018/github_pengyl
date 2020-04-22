@@ -1,5 +1,7 @@
 package sort;
 
+import common.CommonUtil;
+
 import java.util.*;
 
 public class MergeSort {
@@ -38,6 +40,6 @@ public class MergeSort {
     public static void main(String[] args) {
         int[] a = {3, 12, 76, 23, 17, 8, 54};
         mergeSort(a, 0, a.length - 1);
-        System.out.println(Arrays.toString(a));
+        CommonUtil.printArray(a);
     }
 }
