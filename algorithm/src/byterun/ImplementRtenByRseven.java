@@ -1,4 +1,4 @@
-package src.ByteRun;
+package byterun;
 
 import java.util.Random;
 import common.CommonUtil;
