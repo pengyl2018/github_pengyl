@@ -50,6 +50,7 @@ public class LemonadeChange {
      * @return 输出是否能满足
      */
     private static boolean judge(int[] input) {
+        // 用来记录剩余的5元张数和10元张数
         int five = 0, ten = 0;
         for (int i = 0; i < input.length; i++) {
             if (input[i] == 5) {
