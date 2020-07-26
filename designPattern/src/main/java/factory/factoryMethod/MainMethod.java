@@ -1,54 +1,57 @@
 package factory.factorymethod;
 
 /**
- * 将工厂方法的具体实现放到子类中实现
+ * 实现方式：一个产品接口，对应多个具体产品，一个工厂，对应多个具体工厂
+ * 不考虑产品族时使用工厂方法模式即可（产品族举例子：苹果品牌的手机、电脑、手表等产品组成一个产品族）
  */
 public class MainMethod {
     public static void main(String[] args) {
-        KeyFactory keyFactory = new HpKeyFactory();
-        Key key = keyFactory.createKey();
-        key.sayHi();
+        Factory factory = new AppleFactory();
+        Phone phone = factory.createPhone();
+        phone.sayHello();
 
-        keyFactory = new DellKeyFactory();
-        key = keyFactory.createKey();
-        key.sayHi();
+        Factory factory2 = new MiFactory();
+        Phone phone2 = factory.createPhone();
+        phone.sayHello();
     }
 }
 
-interface Key {
-    void sayHi();
+interface Phone {
+    void sayHello();
 }
 
-interface KeyFactory {
-    Key createKey();
-}
+class ApplePhone implements Phone {
 
-class DellKey implements Key {
     @Override
-    public void sayHi() {
-        System.out.println("dell key");
+    public void sayHello() {
+        System.out.println("用苹果手机打电话");
     }
 }
 
-class HpKey implements Key {
+class MiPhone implements Phone {
+
     @Override
-    public void sayHi() {
-        System.out.println("hp key");
+    public void sayHello() {
+        System.out.println("用小米手机大电话");
     }
 }
 
-class DellKeyFactory implements KeyFactory {
+interface Factory {
+    Phone createPhone();
+}
+
+class AppleFactory implements Factory {
+
     @Override
-    public Key createKey() {
-        return new DellKey();
+    public Phone createPhone() {
+        return new ApplePhone();
     }
 }
 
-class HpKeyFactory implements KeyFactory {
+class MiFactory implements Factory {
+
     @Override
-    public Key createKey() {
-        return new HpKey();
+    public Phone createPhone() {
+        return new MiPhone();
     }
 }
-
-
