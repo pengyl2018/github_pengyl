@@ -1,7 +1,7 @@
 package adapter.v1;
 
 /**
- * 对象适配器模式
+ * 对象适配器模式，优点：target对象只有out5v这个方法可以访问，不会访问到多余的方法，从而产生干扰
  */
 public class AdapterTest {
     public static void main(String[] args) {
