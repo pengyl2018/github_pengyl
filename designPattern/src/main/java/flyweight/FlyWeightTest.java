@@ -26,7 +26,7 @@ public class FlyWeightTest {
         private static Map<String, Ticket> tickerMap = new ConcurrentHashMap<>();
 
         public static synchronized Ticket getTicket(String from, String to) {
-            // 以内部变量作为key
+            // 以内部状态作为key
             String key = from + "-" + to;
             Ticket ticket = tickerMap.get(key);
             if (ticket == null) {
