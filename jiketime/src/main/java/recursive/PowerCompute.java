@@ -49,7 +49,7 @@ public class PowerCompute {
             return ((double) 1) / getPower2(x, -y);
         }
         if (y % 2 == 0) {
-            return getPower2(x * x, y / 2);
+            return getPower2(x * x, y >> 1);
         } else {
             return x * getPower2(x, y - 1);
         }
@@ -71,13 +71,13 @@ public class PowerCompute {
             dx = x;
         }
         double result = 1;
-        // 如果判断条件为y>1，那么真实的结果无法赋予为result变量
+        // 如果判断条件为y>1，那么真实的结果无法赋给result变量
         while (y > 0) {
             if (y % 2 == 1) {
                 result *= dx;
             }
             dx *= dx;
-            y /= 2;
+            y = y >> 1;
         }
         return result;
     }
