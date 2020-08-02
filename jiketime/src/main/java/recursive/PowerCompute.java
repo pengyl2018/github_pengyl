@@ -7,11 +7,14 @@ public class PowerCompute {
     public static void main(String[] args) {
         PowerCompute powerCompute = new PowerCompute();
         // 测试方法1
-        System.out.println("2^5:" + powerCompute.getPower1(2, 20));
-        System.out.println("2^(-5):" + powerCompute.getPower1(2, -20));
+        System.out.println("2^20:" + powerCompute.getPower1(2, 20));
+        System.out.println("2^(-20):" + powerCompute.getPower1(2, -20));
         // 测试方法2
-        System.out.println("2^5:" + powerCompute.getPower2(2, 20));
-        System.out.println("2^(-5):" + powerCompute.getPower2(2, -20));
+        System.out.println("2^20:" + powerCompute.getPower2(2, 20));
+        System.out.println("2^(-20):" + powerCompute.getPower2(2, -20));
+        // 测试方法3
+        System.out.println("2^20:" + powerCompute.getPower3(2, 20));
+        System.out.println("2^(-20):" + powerCompute.getPower3(2, -20));
     }
 
     /**
@@ -32,7 +35,8 @@ public class PowerCompute {
     }
 
     /**
-     * 采用增大底数，减少指数的方式，时间复杂度为o(logn)，推荐
+     * 递归。采用增大底数，减少指数的方式，时间复杂度为o(logn)，推荐
+     *
      * @param x
      * @param y
      * @return
@@ -49,6 +53,33 @@ public class PowerCompute {
         } else {
             return x * getPower2(x, y - 1);
         }
+    }
+
+    /**
+     * 非递归。采用增大底数，减少指数的方式，时间复杂度为o(logn)，推荐
+     *
+     * @param x
+     * @param y
+     * @return
+     */
+    private double getPower3(int x, int y) {
+        double dx;
+        if (y < 0) {
+            dx = ((double) 1) / x;
+            y = -y;
+        } else {
+            dx = x;
+        }
+        double result = 1;
+        // 如果判断条件为y>1，那么真实的结果无法赋予为result变量
+        while (y > 0) {
+            if (y % 2 == 1) {
+                result *= dx;
+            }
+            dx *= dx;
+            y /= 2;
+        }
+        return result;
     }
 
     private int power(int x, int y) {
