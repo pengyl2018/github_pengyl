@@ -31,6 +31,12 @@ public class PowerCompute {
         }
     }
 
+    /**
+     * 采用增大底数，减少指数的方式，时间复杂度为o(logn)，推荐
+     * @param x
+     * @param y
+     * @return
+     */
     private double getPower2(int x, int y) {
         if (y == 1) {
             return x;
