@@ -16,8 +16,7 @@ public class Triangel {
         int[][] triangel = new int[][]{{2, 0, 0, 0}, {3, 2, 0, 0}, {6, 5, 4, 0}, {4, 1, 100, 101}};
         int row = triangel.length;
         int[][] dp = new int[row][row];
-        int[] lastRow = {4, 1, 100, 101};
-        dp[row - 1] = lastRow;
+        dp[row - 1] = triangel[row - 1];
         System.out.println("最小路径和为：" + minPathSum(triangel, dp, row));
     }
 
