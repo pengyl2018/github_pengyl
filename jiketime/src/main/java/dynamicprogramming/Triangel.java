@@ -1,5 +1,7 @@
 package dynamicprogramming;
 
+import util.PrintUtil;
+
 /**
  * 三角形最小路径和
  *        2                      2
@@ -14,6 +16,8 @@ public class Triangel {
         int[][] triangel = new int[][]{{2, 0, 0, 0}, {3, 2, 0, 0}, {6, 5, 4, 0}, {4, 1, 100, 101}};
         int row = triangel.length;
         int[][] dp = new int[row][row];
+        int[] lastRow = {4, 1, 100, 101};
+        dp[row - 1] = lastRow;
         System.out.println("最小路径和为：" + minPathSum(triangel, dp, row));
     }
 
@@ -24,6 +28,7 @@ public class Triangel {
                 dp[i][j] = triangel[i][j] + Math.min(dp[i + 1][j], dp[i + 1][j + 1]);
             }
         }
-        return dp[0][0] + triangel[0][0];
+        PrintUtil.printArrays(dp);
+        return dp[0][0];
     }
 }
