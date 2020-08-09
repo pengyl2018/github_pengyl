@@ -1,4 +1,4 @@
-package array_list;
+package arraylist;
 
 public class ListNode {
     ListNode next;

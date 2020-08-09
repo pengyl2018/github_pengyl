@@ -1,4 +1,4 @@
-package array_list;
+package arraylist;
 
 /**
  * 反转链表

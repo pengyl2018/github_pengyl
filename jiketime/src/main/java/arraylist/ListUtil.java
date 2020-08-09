@@ -1,6 +1,4 @@
-package array_list;
-
-import java.util.List;
+package arraylist;
 
 public class ListUtil {
     // 初始化一个单链表

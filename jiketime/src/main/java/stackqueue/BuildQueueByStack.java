@@ -1,4 +1,4 @@
-package stack_queue;
+package stackqueue;
 
 import java.util.Stack;
 

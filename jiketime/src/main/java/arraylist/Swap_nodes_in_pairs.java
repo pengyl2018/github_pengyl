@@ -1,4 +1,4 @@
-package array_list;
+package arraylist;
 
 /**
  * 两两交换链表中的节点
